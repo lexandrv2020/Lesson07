@@ -22,7 +22,8 @@ collection[4].insertBefore(elemli_b[5], elemli_b[8]);
 elemli_b = collection[4].querySelectorAll('li');
 collection[4].insertBefore(elemli_b[3], elemli_b[6]);
 
-//меняем фон
+//меняем фон 
+//? меняем картинку заднего форма страницы??  - не красиво
 let bodySection = document.querySelector('body');
 bodySection.setAttribute('style', 'background-image : url(./image/you-dont-know-js.jpg);')
 
